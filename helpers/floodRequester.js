@@ -1,5 +1,5 @@
 const queue = []; //inputs {payload, callback}
-const timeoutSeconds = 1;
+const timeoutSeconds = 30;
 const maxBatchSize = 950;
 const lambda = require("./lambda");
 
