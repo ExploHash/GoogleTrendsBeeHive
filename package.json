@@ -1,0 +1,16 @@
+{
+  "name": "googletrendsbeehive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.185.0",
+    "aws-sdk": "^2.1230.0",
+    "dayjs": "^1.11.5"
+  }
+}
