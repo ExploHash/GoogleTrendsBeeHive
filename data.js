@@ -9,7 +9,7 @@ module.exports = {
     const endTime = dayjs().year(endYear).month(endMonth - 1).date(1).endOf("month").format("YYYY-MM-DD");
     
     //First grab all months
-    const monthlyData = await floodRequester.grab({keyword, countryCode, startTime, endTime: endTimeTenYears, granularTimeResolution: true});
+    const monthlyData = await floodRequester.grab({keyword, countryCode, startTime, endTime: endTimeTenYears});
 
     const promises = []; // {date, value}
     //Build promises for each month
